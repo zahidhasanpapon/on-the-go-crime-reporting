@@ -20,7 +20,7 @@ public class AdminActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_admin);
-        lvItems= (ListView) findViewById(R.id.listview);
+
         items= new ArrayList<String>();
         itemsAdapter= new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, items);
         lvItems.setAdapter(itemsAdapter);
@@ -41,4 +41,4 @@ public class AdminActivity extends AppCompatActivity {
 
     }
     }
-}
+
