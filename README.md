@@ -1,2 +1,2 @@
-# To-Go-Crime-Report-
+# To-Go-Crime-Report
 Simple android application using firebase
